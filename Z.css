@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.details {
+    width: 60%;
+    padding: 30px;
+}
+
+.details h2 {
+    color: #333;
+}
+
+.image {
+    width: 40%;
+    text-align: center;
+}
+
+.image img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+      }
